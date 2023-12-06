@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Raleway;
+    src: url(/assets/fonts/static/Raleway-Regular.ttf);
+}
+
+* {
+    font-family: Raleway;
+}
+.banner {
+    background-image: url(/assets/images/banner.png) ;
+    background-blend-mode: darken;
+    width: 1440px;
+    height: 605px;
+    border: 0px 1px 0px 0px;
+}
+.banner-content {
+    margin: auto;
+    width: 510px;
+    height: 393px;    
+}
+.banner-content h1 {
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    font-weight: 900px; 
+    font-size: 40px;
+    line-height: 46.96px;
+    color: rgba(0, 0, 0, 0);
+    margin: 22px;
+}
+
+.banner-content p {
+    font-weight: 400px; 
+    font-size: 20px;
+    line-height: 23.48px;
+    text-align: justify;
+}
+
+.logo {
+    width: 268px;
+    height: 268px;
+    margin-left: 121px ;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+.logo img {
+    margin: 27px auto 0px;
+}
+
+
+
